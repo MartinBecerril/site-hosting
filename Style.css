@@ -108,11 +108,11 @@ body {
 .header-content {
     position: relative;
     text-align: center;
-    margin-top: 108px;
-    height: 56vh !important;
-    background: url(img/imgBanner.jpg) no-repeat center;
+    margin-top: 100px;
+    height: 55vh !important;
+    background: url(img/kimia-zarifi-x4J_92kJBoY-unsplash.jpg) no-repeat center;
     background-attachment: fixed;
-    background-size:cover;
+    background-size:contain;
     background-position:center;
 }
 
