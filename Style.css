@@ -332,14 +332,14 @@ body {
 }
 
 
-.platillo {
+.productos {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 50px;
 }
 
-.platillo h3 {
+.productos h3 {
     font-size: 20px;
     color: #ffffff;
     margin-bottom: 10px;
@@ -350,12 +350,12 @@ body {
     color: #D4192C !important;
 }
 
-.platillo img {
+.productos img {
     width: 200px;
     margin-top: 40px;
 }
 
-.platillo p {
+.productos p {
     font-size: 16px;
     color: #ffffff;
     margin-top: 15px;
