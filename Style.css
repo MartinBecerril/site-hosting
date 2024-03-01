@@ -10,7 +10,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #AEDFFD;
 }
 
 img {
@@ -165,532 +164,59 @@ p {
     width: 400px;
 }
 
-
-
-.socials-1 {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    margin-top: 200px;
-}
-
-.socials-1 img{
-    width: 20px;
-    height: 20px;
-    margin-bottom: 20px;
-}
-
-.arrow {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 200px;
-    height: 150px;
-    
-}
-
-/* deportes disciplinas */
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align:baseline;
-}
-
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.deporte {
-    padding: 30px;
-    background: #ffffff
-}
-
-.deporte-1 h3{
-    font-size: 80px;
-    color: #303030;
-    font-weight: 800;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-top: 90px;
-}
-
-.deporte p {
-    font-size: 20px;
-    padding: 0 250px;
-    color: #303030;
-    margin-bottom: 80px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.box-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-
-}
-
-.box-container .box {
-    height: 12rem;
-    width: 18rem;
-    background: #101010;
-    text-align: center;
-    border-radius: 1rem;
-    box-shadow: 0 .3rem 5rem rgba(3, 21, 80, 0.37);
-    margin: 2rem;   
-}
-
-.box-container .box i {
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    text-align: center;
-    border-radius: 50%;
-    color: #fff;
-    background: #9b0000;
-    font-size: 2rem;
-    margin: 1rem 0;
-
-}
-
-.box-container .box h3 {
-    font-size: 20px;
-    color: #9b0000;
-
-}
-
-.box-container .box p {
-    padding: 0 15px;
-    font-size: 16px;
-}
-
-/*resto*/
-
-.recetas {
-    display: flex;
-    padding: 120px 0;
-}
-
-.recetas-1 {
-    width: 50%;
-}
-
-.recetas-1 h3 {
-    margin-top: 50px;
-    font-size: 20px;
-    color: #303030;
-}
- .recetas-1 p {
-    color: #ffffff;
-    font-size: 18px;
- }
-
- .recetas-1 hr {
-    margin: 10px 0;
-    border: 1px solid #312F32;
- }
- 
-.recetas-2 {
-    width: 50%;
-    text-align: center;
-}
-
-.recetas-2 h2 {
-    font-size: 80px;
-    line-height: 100px;
-    color: #303030;
-}
-
-.productos {
-    padding: 50px 0;
-}
-
-.swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    text-align: center;
-    padding-bottom: 80px;
-}
-
-.swiper-button-prev::after {
-    font-size: 25px;
-}
-
-.swiper-button-next::after {
-    font-size: 25px;
-}
-
-.swiper-button-prev {
-    color: #D4192C;
-}
-
-.swiper-button-next {
-    color: #D4192C;
-}
-
-.swiper-pagination-bullet {
+.informacion {
+    width: 70%;
+    box-shadow: 0 0 20px (rgba(0, 0, 0, 0.1));
+    padding: 25px 75px;
+    margin-top: -75px;
     background-color: #ffffff;
-    opacity: 1;
-    top: 50px;
 }
 
-.swiper-pagination-bullet-active {
-    background-color: #D4192C;
-}
-
-
-.productos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 50px;
-}
-
-.productos h3 {
-    font-size: 20px;
-    color: #303030;
-    margin-bottom: 10px;
-}
-
-.precio {
-    font-size: 18px;
-    color: #303030 !important;
-}
-
-.productos img {
-    width: 200px;
-    margin-top: 40px;
-}
-
-.productos p {
-    font-size: 16px;
-    color: #303030;
-    margin-top: 15px;
-}
-
-.btn-2 {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #D4192C;
-    color: #ffffff;
-    font-size: 15px;
-    margin-top: 25px;
-    border-radius: 25px;
-}
-
-.btn-2:hover {
-    background-color: #8F1121;
-}
-
-.c1, .c2 {
-    color: #ffffff !important;
-}
-
-.btn-3 {
-    display: inline-block;
-    color: #ffffff;
-    padding: 8px 15px;
-    border-radius: 25px;
-    margin-top: 25px;
-    border: 1px solid #D4192C;
-}
-
-.btn-3:hover {
-    background-color: #8F1121;
-    border: 1px solid #8F1121;
-}
-
-.about {
-    display: flex;
-    position: relative;
-}
-
-.about-content {
-    position: relative;
+.informacion-content {
     text-align: center;
-    margin-top: 100px;
-    height: 56vh !important;
-    background: url(img/engin-akyurt-g-m8EDc4X6Q-unsplash.jpg) no-repeat center;
-    background-attachment: fixed;
-    background-size:cover;
-    background-position:center;
-}
-
-.about-content h1{
-    font-size: 80px;
-    color: #ffffff;
-    font-weight: 800;
-    margin-bottom: 30px;
-}
-
-.about-content p {
-    font-size: 20px;
-    padding: 0 200px;
-    color: #ffffff;
-    margin-bottom: 800px;
-}
-
-.footer {
-    padding-bottom: 50px;
-}
-
-.links {
     display: flex;
     justify-content: space-between;
 }
 
-.link {
-    margin-top: -8%;
-    width: 25%;
+.informacion-1 img {
+    width: 35px;
 }
 
-.link h3 {
-    font-size: 20px;
-    color: #DFDDE0;
-    margin-bottom: 20px;
+h3 {
+    font-size: 17px;
+    color: #181713;
+    text-transform: capitalize;
+}
+.informacion-1 p {
+    margin-bottom: 0;
 }
 
-.link p {
-    color: #8d7e7b;
-    font-size: 14px;
-    margin: 0 50px 15px 0;
+
+.oferts {
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
-.link ul li a {
-    display: inline-block;
-    font-size: 16px;
-    color: #DFDDE0;
+.ofert-1 {
+    text-align: center;
+    flex-basis: calc(25% - 20px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 35px;
+}
+
+.ofert-1 img {
+    width: 140px;
     margin-bottom: 10px;
 }
 
-.socials-2 img {
-    width: 20px;
-    height: 20px;
-}
-
-.link form {
-    display: flex;
-    flex-direction: column;
-}
-
-.inp {
-    margin-bottom: 15px;
-    padding: 8px 15px;
-    border-radius: 10px;
-    outline: none;
-}
-
-.btn-4 {
-    padding: 8px 15px;
-    border-radius: 10px;
-    background-color: #61bc00;
-    border: 0;
-    color: #ffffff;
-}
+.ofert-1 p {
+    font-size: 15px;
+    margin: 0;
+    font-weight: 600;
+    color: #8dc84b;
+}   
 
 
-@media (max-width: 991px){
-    .menu {
-        padding: 30px;
-    }
-    
-    .menu label {
-        display: initial;
-    }
 
-    .menu .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: #303030;
-        display: none;
-    }
-    .logo {
-        display: none
-    }
-
-    .menu .navbar ul li {
-        width: 100%;
-    }
-
-    #menu:checked ~ .navbar {
-        display: initial;
-    }
-
-    .header-content {
-        flex-direction: column;
-        padding: 30px;
-        margin-top: 130px;
-    }
-
-    .header-content h1 {
-        font-size: 40px;
-    }
-
-    .header-content p {
-        padding: 0;
-        margin-bottom: 40px;
-    }
-
-    .botons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .btn-1 {
-        margin: 0 0 20px 0;
-    }
-
-    .socials-1 {
-        display: none;
-    }
-
-    .socials-2 {
-        display: none;
-    }
-
-    .arrow {
-        display: none;
-    }
-
-    .recetas {
-        flex-direction: column;
-        padding: 0px 30px;
-        text-align: center;
-    }
-
-    .recetas-1 {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-
-    .recetas-2 {
-        width: 100%;
-    }
-
-    .footer {
-        padding: 30px;
-    }
-
-    .links {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .link {
-        width: 70%;
-    }
-
-    .link p {
-        margin: 0 0 25px 0;
-    }
-
-    .socials-2 {
-        margin-bottom: 15px;
-    }
-
-}
-/*estilo fb e insta*/
-:root {
-    --link-size: 64px;
-    --trans-props: all 0.3s ease;
-  }
-  
-  .wrapper,
-  .social-icons {
-    display: flex;
-    padding: 10px;
-    margin-top: -250%;
-    margin-right: 50%;
-  }
-
-  /*** Containers and icons ***/
-  .social-icon {
-    display: flex;
-  
-    position: relative;
-    overflow: hidden; /* Trim branded overlays */
-  
-    width: var(--link-size);
-    height: var(--link-size);
-    margin: 8px;
-  
-    background-color: white;
-    border-radius: 50%;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
-  
-    text-decoration: none;
-  
-    transition: var(--trans-props);
-    
-  }
-  
-  .social-icon i {
-    margin: auto; /* Perfect centering thanks to parental flex */
-  
-    font-size: 24px;
-    color: hsl(212, 16%, 48%);
-  
-    z-index: 1; /* Make sure icons will be on top */
-  
-    transition: var(--trans-props);
-  }
-  
-  /*** Branded overlays from the bottom ***/
-  .social-icon:after {
-    content: "";
-  
-    width: var(--link-size);
-    height: var(--link-size);
-  
-    position: absolute;
-  
-    transform: translate(0, var(--link-size));
-  
-    border-radius: 50%;
-    transition: var(--trans-props);
-  }
-  
-  .social-icon.facebook:after {
-    background-color: #3b5998;
-  }
-  
-  .social-icon.instagram:after {
-    background-image: linear-gradient(
-      to bottom left,
-      #4f5bd5,
-      #962fbf,
-      #d62976,
-      #fa7e1e,
-      #feda75
-    );
-  }
-  
-  /*** Animations ***/
-  .social-icon:hover {
-    transform: translateY(-4px);
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
-  }
-  
-  .social-icon:hover i {
-    /*  transform: scale(1.1); */
-    color: #fff;
-  }
-  
-  .social-icon:hover:after {
-    transform: translate(0) scale(1.2);
-  }
 
