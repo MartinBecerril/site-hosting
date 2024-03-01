@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <!-- Complementos -->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Iconos y fuentes -->
@@ -25,130 +25,241 @@
 
     <!-- Pestaña Inicio -->
     <link rel="icon" type="img/jpg" href="img/logo.jpg">
-    <title>Cuidado Personal</title>
+    <title>Titulo Deseado</title>
 
 </head>
 
 <body>
 
-    <header class="header" id="inicio">   
+    <header class="header">   
 
             <div class="menu container">
-                <a href="#"><img src="img/logo.jpg" class="logo" width="67.5" height="67.5"></a>
-                <input type="checkbox" id="menu">
-                <label for="menu"><img src="img/menu.png" class="menu-icono" alt="menu" ></label>      
-                  
-            <nav class="navbar">
+                <a href="#" class="logo"><img src="img/logo.jpg" class="logo" width="67.5" height="67.5"></a>
+                <input type="checkbox" id="menu"/>
+                <label for="menu">
+                    <img src="img/menu.png" class="menu-icono" alt="menu" >
+                </label>      
+                
+                <nav class="navbar">
                     <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#producto">PRODUCTOS</a></li>
-                    <li><a href="#nosotros">NOSOTROS</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
-                </ul>
-            </nav>
+                        <li><a href="#inicio">INICIO</a></li>
+                        <li><a href="#productos">PRODUCTOS</a></li>
+                        <li><a href="#nosotros">NOSOTROS</a></li>
+                        <li><a href="#contactos">CONTACTO</a></li>
+                    </ul>
+                </nav>
+
                 <!--CARRITO-->
-                    <div>
-                        <ul>
-                            <li class="submenu">
-                                <img src="img/compra.png" id="img-carrito" alt="" width="30px" height="30px">
-                                <div id="carrito">
-                                    <table id="lista-carrito">
-                                        <thead>
-                                            <tr>
-                                                <th>Imagen</th>
-                                                <th>Nombre</th>
-                                                <th>Precio</th>
-                                                <th></th>
-                                            </tr>
-                                        </thead>
-                                        <tbody></tbody>
-                                    </table>
-                                    <a href="#" id="vaciar-carrito" class="btn-2">VACIAR CARRITO</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div>
+                    <ul>
+                        <li class="submenu">
+                            <img src="img/car.svg" id="img-carrito" alt="carrito">
+                            <div id="carrito">
+                                <table id="lista-carrito">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Nombre</th>
+                                            <th>Precio</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                                <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-        
+            </div>
+        <!-- INTRO -->
         <div class="header-content container">
-            <h1>TITULO PAGINA</h1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Perferendis a reiciendis porro, odio animi pariatur voluptas! 
-                quas minima at praesentium odio?
-                <br>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Perferendis a reiciendis porro, odio animi pariatur voluptas! 
-            </p>
-
-            <div class="botons">
-                <a href="#" class="btn-1">Mas informacion</a>
-                <a href="#producto" class="btn-1">Productos</a>
+            <div class="header-txt">
+                <span>Ofertas</span>
+                <h1>Productos en oferta</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Ratione fuga doloribus aut ex iusto, dolorem praesentium earum 
+                    architecto illo expedita perferendis eos magni cupiditate incidunt.
+                    Nisi architecto nam iusto voluptatibus!
+                </p>
+                <a href="#" class="btn-1">Información</a>
             </div>
 
-            <div class="socials-1">
-                <img src="img/facebook.png" alt="">
-                <img src="img/instagram.png" alt="">
-                <img src="img/twitter.png" alt="">
+            <div class="header-img">
+                <img src="img/rigth.png" alt="">
             </div>
-            <a href="#lista">
-                <img class="arrow" src="img/arrow.svg" alt="">
-            </a>
         </div>
     </header>
 
-    <section class="content deporte" id="disciplina">
-        <div class="deporte-1">
-            <h3>PRODUCTOS</h3>
-            <hr>
+    <section class="informacion container">
+        <div class="informacion-content">
+            <div class="informacion-1">
+                <img src="img/i1.svg" alt="">
+                <h3>orem ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+
+            <div class="informacion-1">
+                <img src="img/i2.svg" alt="">
+                <h3>orem ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+
+            <div class="informacion-1">
+                <img src="img/i3.svg" alt="">
+                <h3>orem ipsum</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="oferts container">
+
+        <div class="ofert-1">
+            <img src="img/f1.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/f2.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/f3.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+
+        <div class="ofert-1">
+            <img src="img/f4.png" alt="">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Productos Destacados</h2>
+
+        <div class="product-content">
+
+            <div class="product">
+                <img src="img/pr1.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr2.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr3.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr4.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr5.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr6.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+            <div class="product">
+                <img src="img/pr7.png" alt="">
+                <div class="product-txt"></div>
+                    <h3>Producto</h3>
+                    <p class="precio">$1,000.00</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="service">
+
+        <div class="service-1">
+            <img class="store" src="img/1.png" alt="">
+        </div>
+
+        <div class="service-2">
+            <img class="store" src="img/2.png" alt="">
+        </div>
+
+        <div class="service-3">
+            <img class="store" src="img/3.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about" id="nosotros">
+        <div class="about-content container">
+            <h1>Nosotros</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                Obcaecati eveniet vitae dolor magni voluptas autem fuga ex 
-                veritatis distinctio similique expedita, odio ea tempore 
-                dignissimos amet in magnam? Exercitationem, aspernatur.
+                Ratione fuga doloribus aut ex iusto, dolorem praesentium earum 
+                architecto illo expedita perferendis eos magni cupiditate incidunt.
+                Nisi architecto nam iusto voluptatibus!
                 <br>
-                Obcaecati eveniet vitae dolor magni voluptas autem fuga ex 
-                veritatis distinctio similique expedita, odio ea tempore 
-                dignissimos amet in magnam? Exercitationem, aspernatur.
-             </p>
-        </div>
-
-        <div class="box-container">
-            <div class="box">
-                <a href="#"><i class="material-symbols-outlined">sports_mma</i></a>
-                <h3>Categoria 1</h3>
-                <p>Categoria 1</p>
-            </div>
-
-            <div class="box">
-                <a href="#"><i class="material-symbols-outlined">sports_martial_arts</i></a>
-                <h3>Categoria 2</h3>
-                <p>Categoria 2</p>
-            </div>
-
-            <div class="box">
-                <a href="#"><i class="material-symbols-outlined">sports_kabaddi</i></a>
-                <h3>Categoria 3</h3>
-                <p>Categoria 3</p>
-            </div>
-
-            <div class="box">
-                <a href=""><i class="fa fa-dumbbell"></i></a>
-                <h3>Categoria 4</h3>
-                <p>Categoria 4</p>
-            </div>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Ratione fuga doloribus aut ex iusto, dolorem praesentium earum 
+                <br>
+                Nisi architecto nam iusto voluptatibus!
+            </p>
         </div>
     </section>
 
-    <section class="recetas container" id="producto">
-        <div class="recetas-1">
-            <h3>Hombre</h3>
-            <hr>
-            <p>Para todas las disciplinas</p>
-        </div>
-        <div class="recetas-2">
-            <h2>Lo mejor para <br> el mejor</h2>
-        </div>
+    <section class="contact container">
+
+        <form>
+            <input type="email" placeholder="Correo" class="inp">
+            <input type="submit" class="btn-3">
+        </form>
+
     </section>
+
+
+
+
+
+
+
+
 
     <section class="platilos container" id="lista">
         <div class="swiper mySwiper">
@@ -294,21 +405,7 @@
         </div>
     </section> 
 
-    <section class="about" id="nosotros">
-        <div class="about-content container">
-            <h1>Nosotros</h1>
-            <p>La empresa RSC KO México inicia en el 2023 con el objetivo 
-                de ofrecer un equipo adecuado a todos los practicantes de deportes 
-                de contacto y fitness, 
-                <br>
-                buscando los productos de mayor calidad 
-                en el mercado, ofreciendo los mejores precios y promociones 
-                para hacer de tu equipamiento más accesible.
-                <br>
-                ¿Estas listo para realizar un KO?
-            </p>
-        </div>
-      </section>
+
 
     <section class="recetas container">
         <div class="recetas-1" id="contacto">
@@ -319,7 +416,7 @@
     </section>
 
     <footer class="footer container">
-        <div class="links">
+        <div class="footer-content container">
             <div class="link">
                 <h3>Redes Sociales</h3>
                 <p>Dentro de nuestras redes sociales encontraras nuestros
@@ -352,26 +449,6 @@
             </div>
         </div
 
-            <div class="link">
-                <h3>lorem</h3>
-                <ul>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                </ul>
-            </div>
-
-            <div class="link">
-                <h3>Subscribirse</h3>
-                <form>
-                    <input type="text" placeholder="Nombre" class="inp">
-                    <input type="email" placeholder="Email" class="inp">
-                    <textarea placeholder="Comentarios..." class="inp"></textarea>
-                    <input class="btn-4" type="submit" value="Enviar">
-            </div>
-        </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
