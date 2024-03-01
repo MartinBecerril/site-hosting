@@ -1,38 +1,7 @@
-
-//Slide
-
-var swiper = new Swiper (".mySwiper", {
-    slidesPerView:3,
-    spaceBetween:30,
-    loop:true,
-    loopFillGroupWithBlank:true,
-    pagination: {
-        el:".swiper-pagination",
-        clickable:true,
-    },
-    navigation: {
-        nextEl:".swiper-button-next",
-        prevEl:".swiper-button-prev",
-    },
-    breakpoints: {
-        0: {
-            slidesPerView:1
-        },
-        520:{
-            slidesPerView: 2
-        },
-        950 :{
-            slidesPerView:3
-        }
-    }
-
-});
-
 //Carrito
 
 const carrito = document.getElementById('carrito');
-const elementos = document.getElementById('lista');
-const elementos2 = document.getElementById('lista-2');
+const elementos = document.getElementById('lista-1');
 const lista = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
 
@@ -40,7 +9,6 @@ cargarEventListeners();
 
 function cargarEventListeners(){
     elementos.addEventListener('click', comprarElemento);
-    elementos2.addEventListener('click', comprarElemento);
 
     carrito.addEventListener('click', eliminarElemento);
 
@@ -85,7 +53,7 @@ function insertarCarrito(elemento){
         ${elemento.precio}
     </td>
     <td>
-        <a herf="#" class="borrar" data-id="${elemento.id}">X</a>
+        <a href="#" class="borrar" data-id="${elemento.id}"> X </a>
     </td>
 
     `;
@@ -123,84 +91,6 @@ function vaciarCarrito(){
     vaciarLocalStorage();
 
     return false;
-}
-
-function guardarElementoLocalStorage(elemento){
-    
-    let elementos;
-
-    elementos = obtenerElementosLocalStorage();
-
-    elementos.push(elemento);
-
-    localStorage.setItem('elementos', JSON.stringify(elementos));
-}
-
-function obtenerElementosLocalStorage(){
-
-    let elementosLS;
-
-    if(localStorage.getItem('elementos') == null) {
-        elementosLS = [];
-    } else {
-        elementosLS = JSON.parse(localStorage.getItem('elementos'));
-    }
-
-    return elementosLS;
-
-}
-
-function leerLocalStorage (){
-
-    let elementosLS;
-
-    elementosLS = obtenerElementosLocalStorage();
-
-    elementosLS.forEach(function(elemento){
-
-        const row = document.createElement('tr');
-        row.innerHTML = `
-        <td>
-            <img src= "${elemento.imagen}" width = 100>
-        </td>
-        
-        <td>
-            ${elemento.titulo}    
-        </td>
-        <td>
-            ${elemento.precio}
-        </td>
-        <td>
-            <a herf="#" class="borrar" data-id="${elemento.id}">X</a>
-        </td>
-    
-        `;
-
-        lista.appendChild(row);
-
-    });
-
-}
-
-function eliminarElementoLocalStorage(elemento){
-
-    let elementosLS;
-
-    elementosLS = obtenerElementosLocalStorage();
-    elementosLS.forEach(function(elementoLS, index){
-
-        if (elementoLS.id == elemento){
-            elementosLS.splcie(index,1);
-        }
-
-    });
-
-    localStorage.setItem('elementos', JSON.stringify(elementosLS));
-}
-
-function vaciarLocalStorage(){
-
-    localStorage.clear();
 }
 
 
